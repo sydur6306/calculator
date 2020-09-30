@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="calculator">
+		<input type="text" readonly id="display">
+	<button type="button"onclick="one();">1</button>
+	<button type="button"onclick="two();">2</button>
+	<button type="button"onclick="three();">3</button>
+	<button type="button"onclick="four();">4</button>
+	<button type="button"onclick="five();">5</button>
+	<button type="button"onclick="six();">6</button>
+	<button type="button"onclick="seven();">7</button>
+	<button type="button"onclick="eight();">8</button>
+	<button type="button"onclick="nine();">9</button>
+	<button type="button"onclick="zero();">0</button>
+	<button type="button"onclick="add();">+</button>
+	<button type="button"onclick="sub();">-</button>
+	<button type="button"onclick="mul();">*</button>
+	<button type="button"onclick="div();">/</button>
+	<button type="button"onclick="equal();">=</button>
+	<button type="button"onclick="display.value=null;">del</button>
+	</div>
+	
+	<script type="text/javascript">
+		function one(){
+			document.getElementById('display').value +=1;
+		}
+		function two(){
+			document.getElementById('display').value +=2;
+		}
+		function three(){
+			document.getElementById('display').value +=3;
+		}
+		function four(){
+			document.getElementById('display').value +=4;
+		}
+		function five(){
+			document.getElementById('display').value +=5;
+		}
+		function six(){
+			document.getElementById('display').value +=6;
+		}
+		function seven(){
+			document.getElementById('display').value +=7;
+		}
+		function eight(){
+			document.getElementById('display').value +=8;
+		}
+		function nine(){
+			document.getElementById('display').value +=9;
+		}
+		function zero(){
+			document.getElementById('display').value +=0;
+		}
+		function add(){
+			document.getElementById('display').value +="+";
+		}
+		function sub(){
+			document.getElementById('display').value +="-";
+		}
+		function mul(){
+			document.getElementById('display').value +="*";
+		}
+		function div(){
+			document.getElementById('display').value +="/";
+		}
+		function equal(){
+			document.getElementById('display').value =eval(document.getElementById('display').value);
+		}
+
+
+		
+		
+
+	</script>
+</body>
+</html>
