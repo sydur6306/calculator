@@ -1,9 +1,9 @@
 *{
-	margin:0;
-	box-sizing: border-box;
+    margin:0;
+    box-sizing: border-box;
 }
 body{
-	background: #df3d07;
+    background: #a4dd3c;
 }
 
 .calculator{
@@ -29,9 +29,12 @@ display: flex;
 flex-wrap: wrap;
 
 justify-content: space-between;
-background: #df3d07;
-box-shadow:  20px 20px 60px #be3406, 
-             -20px -20px 60px #ff4608;
+
+background: #a4dd3c;
+
+box-shadow: -13px 20px -1px #be3406, -20px -20px 60px #ff4608;
+
+box-shadow: 3px 1px 50px 2px black;
 }
 input{
     width: 100%;
@@ -58,6 +61,6 @@ button{
     cursor: pointer;
 }
 input:focus, button:focus {
-   border:1px solid #964d4d73;
+   border:1px solid #a4dd3c;
    outline: 0;
 }
